@@ -1,0 +1,16 @@
+.husky
+.vscode
+yarn.lock
+.idea
+.prettierignore
+.gitattributes
+coverage
+dist
+node_modules
+.gitignore
+.eslintcache
+.lintstagedrc
+vitest.config.ts
+scripts
+src/create-table.js
+src/db.js
