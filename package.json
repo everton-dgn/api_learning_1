@@ -50,6 +50,7 @@
     "prettier": "^3.0.3",
     "supertest": "^6.3.3",
     "tsc-alias": "^1.8.8",
+    "tslib": "^2.6.2",
     "tsx": "^3.12.10",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.1",
