@@ -4,7 +4,7 @@ import 'dotenv/config'
 import type { Video } from 'database-postgress'
 import { DatabasePostgres } from 'database-postgress'
 
-const logger = JSON.parse(process.env.LOGGER_ENABLED!)
+const logger = JSON.parse(process.env.LOGGER_ENABLED || 'false')
 const app = Fastify({ logger })
 
 app.post('/videos', async (req, reply) => {
