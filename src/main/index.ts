@@ -1,4 +1,4 @@
-import app from './app.js'
+import app from './app'
 
 const port = Number(process.env.APP_PORT)
 

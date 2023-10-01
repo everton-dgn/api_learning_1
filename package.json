@@ -21,7 +21,6 @@
     "test:integration": "vitest run src/tests/integration --coverage",
     "test:ci": "vitest run"
   },
-  "type": "module",
   "dependencies": {
     "@fastify/swagger": "^8.10.1",
     "@fastify/swagger-ui": "^1.9.3",

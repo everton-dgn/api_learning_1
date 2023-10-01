@@ -1,10 +1,11 @@
-import sql from './db.js'
+import sql from './db'
 
 // sql`DROP TABLE IF EXISTS videos;`.then(() => {
 //   console.log('Table dropped')
 // })
 
-sql`
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
+void sql`
   CREATE TABLE videos (
     id UUID PRIMARY KEY,
     title TEXT NOT NULL,
@@ -12,5 +13,6 @@ sql`
     duration INTEGER NOT NULL
   );
 `.then(() => {
+  // eslint-disable-next-line no-console
   console.log('Table created')
 })
