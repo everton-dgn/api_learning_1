@@ -2,7 +2,7 @@
 
 # :memo: Sobre o Projeto
 
-This application is a boilerplate for complex and large systems, especially those that need to scale with security and code quality.
+Esta aplicação é um modelo para sistemas complexos e grandes, especialmente aqueles que precisam ser dimensionados com segurança e qualidade de código.
 
 ---
 
@@ -35,7 +35,7 @@ This application is a boilerplate for complex and large systems, especially thos
 # :white_check_mark: Pre Requisitos
 
 - node última versão lts.
-- yarn.
+- pnpm última versão lts.
 
 <br />
 
@@ -46,14 +46,14 @@ This application is a boilerplate for complex and large systems, especially thos
 Clone o projeto e navegue até a pasta:
 
 ```bash
-git clone https://github.com/everton-dgn/boilerplate_fastify.git
-cd boilerplate_fastify
+git clone https://github.com/everton-dgn/api_learning_1.git
+cd api_learning_1
 ```
 
 Instale as dependências:
 
 ```bash
-yarn
+pnpm i
 ```
 
 <br />
@@ -79,14 +79,14 @@ Disponível em `http://localhost:5000`.
 Desenvolvimento:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 Produção:
 
 ```bash
-yarn build
-yarn start
+pnpm build
+pnpm start
 ```
 
 <br />
