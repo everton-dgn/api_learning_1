@@ -19,7 +19,8 @@
     "test:w": "vitest --coverage",
     "test:unit": "vitest run src/tests/unit --coverage",
     "test:integration": "vitest run src/tests/integration --coverage",
-    "test:ci": "vitest run"
+    "test:ci": "vitest run",
+    "check:update": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
     "@fastify/swagger": "^8.10.1",

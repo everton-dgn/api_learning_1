@@ -1,7 +1,7 @@
 {
   "**/*.ts": [
-    "npm run format",
-    "npm run lint:fix",
-    "npm run test:ci related"
+    "yarn format",
+    "yarn lint:fix",
+    "yarn test:ci related"
   ]
 }
