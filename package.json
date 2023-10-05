@@ -16,9 +16,10 @@
     "check:format": "prettier --cache --check .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --coverage",
-    "test:w": "vitest --coverage",
-    "test:unit": "vitest run src/tests/unit --coverage",
-    "test:integration": "vitest run src/tests/integration --coverage",
+    "test:c": "vitest run",
+    "test:w": "vitest",
+    "test:unit": "vitest run src/tests/unit",
+    "test:integration": "vitest run src/tests/integration",
     "test:ci": "vitest run",
     "check:update": "yarn upgrade-interactive --latest"
   },
@@ -26,7 +27,8 @@
     "@fastify/swagger": "^8.10.1",
     "@fastify/swagger-ui": "^1.9.3",
     "fastify": "^4.23.2",
-    "postgres": "^3.3.5"
+    "postgres": "^3.3.5",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.1.0",
