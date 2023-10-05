@@ -10,7 +10,7 @@ export interface CreateVideoRepository {
 }
 
 export interface UpdateVideoRepository {
-  update: (id: UUID, video: VideoModel) => Promise<boolean>
+  update: (video: VideoModel, id: UUID) => Promise<boolean>
 }
 
 export interface RemoveVideoRepository {
@@ -30,5 +30,5 @@ export abstract class VideoRepository
 
   abstract remove(id: UUID): Promise<boolean>
 
-  abstract update(id: UUID, video: VideoModel): Promise<boolean>
+  abstract update(video: VideoModel, id: UUID): Promise<boolean>
 }
