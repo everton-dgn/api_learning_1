@@ -4,5 +4,5 @@
     "noEmitHelpers": true,
     "importHelpers": true
   },
-  "exclude": ["src/tests"]
+  "exclude": ["src/tests", "src/**/*.spec.ts", "src/**/*.test.ts"]
 }
